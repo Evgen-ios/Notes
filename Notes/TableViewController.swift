@@ -37,7 +37,7 @@ class TableViewController: UITableViewController {
         return items.count
     }
     
-    //
+    // Выводим список существующих заметок
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let currentItem = items[indexPath.row]
