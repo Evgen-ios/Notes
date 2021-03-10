@@ -40,7 +40,7 @@ class NoteViewController: UIViewController {
             } else {
                 
                 // Алерт с ошибкой если есть пустой обьект
-                let alert = UIAlertController(title: "Внимание", message: "Заполните все поля пожалуйста!", preferredStyle: .alert)
+                let alert = UIAlertController(title: "Внимание!", message: "Заполните название и описание!", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
                     NSLog("The \"OK\" alert occured.")
                 }))
